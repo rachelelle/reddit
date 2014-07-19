@@ -1,0 +1,45 @@
+/*Search Page*/
+
+
+#search-results {
+    position: relative;
+    top: 350;
+    left: -230;
+}
+#search-box {
+	height: 32px;
+	width: 300px;
+	background-color: rgba(255, 255, 255, 0.65);
+	border-radius: 18;
+	position: relative;
+	left: 250;
+	bottom: 31;
+	display: inline-block;
+	padding: 12;
+}
+#search-box > img {
+	height: 32px;
+	position: relative;
+	top: 5;
+	left: 10;
+	z-index: 999;
+}
+
+#searchform-box {
+	position: relative;
+	top: -35;
+	left: 50;
+}
+
+input.search.noshadow-box {
+	background-color: rgba(255, 255, 255, 0);
+	height: 40px;
+	width: 250px;
+	border: none;
+	font-size: 12pt;
+	border-radius: 199;
+	font-family: inherit;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
